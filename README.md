@@ -119,13 +119,11 @@ If you use SafeLink or the user study materials in your research, please cite:
 
 ```bibtex
 @inproceedings{choi2026safelink,
-  title     = {{SafeLink}: Uncertainty-Aware Mobile Phishing Defense
-               with a Stabilized {LLM}-Assisted Agent},
-  author    = {Choi, Wonyeong and Park, Jiyeong and An, Joonsik and
-               Jeong, Dayeon and Kang, Kyeongpil and Kim, Woojoo and
-               Lee, Dayoung},
-  booktitle = {Proceedings of the 42nd Annual Computer Security
-               Applications Conference (ACSAC)},
+  title     = {{SafeLink}: Uncertainty-Aware Mobile Phishing Defense with a Stabilized
+               {LLM}-Assisted Agent},
+  author    = {Choi, Wonyeong and Park, Jiyeong and An, Joonsik and Jeong, Dayeon and
+               Kang, Kyeongpil and Kim, Woojoo and Lee, Dayoung},
+  booktitle = {Proceedings of the 42nd Annual Computer Security Applications Conference (ACSAC)},
   year      = {2026}
 }
 ```
