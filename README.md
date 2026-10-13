@@ -5,6 +5,10 @@ This is the official implementation of the paper **SafeLink: Uncertainty-Aware M
 SafeLink is a mobile phishing-defense application for QR-code and mobile-link workflows.
 When a user scans a QR code or opens a mobile link, SafeLink resolves redirects, normalizes URL and HTML evidence, and uses a stabilized LLM-assisted semantic analysis pipeline to map the page to one of three outcomes: Safe, Warning, or Danger. Safe pages can proceed to the browser, Warning pages require user confirmation with an explanation, and Danger pages are blocked.
 
+> **Publication status:** Accepted at the **42nd Annual Computer Security Applications Conference (ACSAC 2026)**, December 7–11, 2026, Los Angeles, California, USA.
+>
+> **Authors:** Wonyeong Choi, Jiyeong Park, Joonsik An, Dayeon Jeong, Kyeongpil Kang, Woojoo Kim, and Dayoung Lee.
+
 This repository contains the implementation artifact and supplementary user study materials.
 
 ---
@@ -105,6 +109,25 @@ cd safelink_app
 # Fill in SERVER_URL in .env first
 flutter pub get
 flutter run
+```
+
+---
+
+## Citation
+
+If you use SafeLink or the user study materials in your research, please cite:
+
+```bibtex
+@inproceedings{choi2026safelink,
+  title     = {{SafeLink}: Uncertainty-Aware Mobile Phishing Defense
+               with a Stabilized {LLM}-Assisted Agent},
+  author    = {Choi, Wonyeong and Park, Jiyeong and An, Joonsik and
+               Jeong, Dayeon and Kang, Kyeongpil and Kim, Woojoo and
+               Lee, Dayoung},
+  booktitle = {Proceedings of the 42nd Annual Computer Security
+               Applications Conference (ACSAC)},
+  year      = {2026}
+}
 ```
 
 ---
